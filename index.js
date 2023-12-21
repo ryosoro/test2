@@ -7,11 +7,6 @@ const cameraInit = () => {
     const cameraSetting = {
         audio: false,
         video: true, 
-        video: {
-            width: cameraWidth,
-            height: cameraHeight,
-            facingMode: "environment",
-        }
     }
 
     navigator.mediaDevices.getUserMedia(cameraSetting)
