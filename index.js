@@ -1,6 +1,3 @@
-const cameraWidth = 300;
-const cameraHeight = 400;
-
  const constraints = {
   audio: true,
   video: { width: 1280, height: 720 },
