@@ -1,10 +1,7 @@
 const cameraWidth = 300;
 const cameraHeight = 400;
 
-const cameraInit = () => {
-    const video = document.getElementById("camera");
-
-    const constraints = {
+ const constraints = {
   audio: true,
   video: { width: 1280, height: 720 },
 };
@@ -22,4 +19,3 @@ navigator.mediaDevices
     // 最後に常にエラーをチェックする
     console.error(`${err.name}: ${err.message}`);
   });
-}
